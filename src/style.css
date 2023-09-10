@@ -38,11 +38,20 @@
   
   /* Estilo do header */
   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--cor-header);
     color: #fff;
     text-align: center;
     padding: 10px 0;
   }
+
+.header-buttons {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+    margin: 0 100px; /* Add margin to create spacing from the sides */
+}
   
   /* Estilo para títulos secundários */
   h2 {
@@ -169,4 +178,49 @@
 
 .button_ref:hover {
     background-color: var(--cor-cinza);
+}
+
+.team-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.github-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('resources/github-icon.png') no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.team-member .github-link {
+    text-decoration: none;
+    color: #007bff; /* Cor do link */
+}
+
+.team-member .github-link:hover {
+    text-decoration: underline;
 }
