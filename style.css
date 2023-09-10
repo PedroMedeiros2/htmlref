@@ -1,0 +1,226 @@
+/* Definindo as variáveis para as cores */
+:root {
+    --cor-fundo: #e3f0ff; /* Cor de fundo do conteúdo */
+    --cor-header: #0055af; /* Cor de fundo do cabeçalho */
+    --cor-titulo: #007BFF; /* Cor para títulos secundários */
+    --cor-branca: #ffffff; /* Cor para linhas brancas */
+    --cor-cinza: #cce4ff; /* Cor para linhas cinzas */
+    --cor-borda: #ddd; /* Cor para borda da tabela e células */
+    --cor-borda-code: #f5f5f5; /* Cor de fundo do bloco de código */
+    --cor-input: #007BFF; /* Cor para a barra de busca */
+    --cor-tag: #cce4ff; /* Cor para tags */
+    --cor-atributo: #cce4ff; /* Cor para atributos */
+  }
+  
+  /* Reset de margens e padding para o body */
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cor-branca); /* Utilizando a variável para a cor de fundo */
+  }
+  
+  /* Estilo do conteúdo da página */
+  main {
+    flex: 1;
+  }
+  .container, .table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--cor-fundo);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo do header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-header);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+.header-buttons {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+    margin: 0 100px; /* Add margin to create spacing from the sides */
+}
+  
+  /* Estilo para títulos secundários */
+  h2 {
+    color: var(--cor-titulo);
+    border-bottom: 1px solid var(--cor-titulo);
+    padding-bottom: 5px;
+  }
+  
+  /* Estilo para parágrafos */
+  p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  
+  /* Estilo para listas não ordenadas */
+  ul {
+    margin-left: 30px;
+  }
+  
+  /* Estilo para código de exemplo */
+  pre.code-example {
+    background-color: var(--cor-borda-code);
+    padding: 15px;
+    overflow-x: auto;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  /* Estilo da tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  table, th, td {
+    padding: 12px;
+    border: 1px solid var(--cor-borda);
+  }
+  
+  /* Estilo para as linhas brancas */
+  .white-row {
+    background-color: var(--cor-branca);
+  }
+  
+  /* Estilo para as linhas cinzas */
+  .gray-row {
+    background-color: var(--cor-cinza);
+  }
+  
+  /* Estilo para a barra de busca */
+  .search-bar {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  /* Estilo do footer */
+  footer {
+    background-color: var(--cor-header);
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+  }
+  
+  /* Estilo para tags */
+  .tag {
+    background-color: var(--cor-tag);
+    color: var(--cor-titulo);
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para atributos */
+  .attribute {
+    background-color: var(--cor-atributo);
+    color: var(--cor-titulo);
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+
+/* Estilo dos botões de navegação */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cor-input);
+    color: var(--cor-branca);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--cor-header);
+}
+
+.button_ref {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cor-branca);
+    color: var(--cor-titulo);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button_ref:hover {
+    background-color: var(--cor-cinza);
+}
+
+.team-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.github-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('resources/github-icon.png') no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.team-member .github-link {
+    text-decoration: none;
+    color: #007bff; /* Cor do link */
+}
+
+.team-member .github-link:hover {
+    text-decoration: underline;
+}

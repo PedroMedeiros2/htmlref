@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Referência de Elementos HTML</title>
+</head>
+
+<body>
+<header>
+    <div class="header-buttons">
+        <a href="about.html" class="button">Sobre</a>
+    </div>
+    <h1><strong>Referência de Elementos HTML</strong></h1>
+    <div class="header-buttons">
+        <a href="../index.html" class="button">Home</a>
+    </div>
+</header>
+
+<main>
+
+        <div class="container">
+            <div class="search-bar">
+                <input type="text" id="search" onkeyup="filterTable()"
+                    placeholder="Digite o termo de busca (Filtrar por Tag ou Descrição)">
+            </div>
+        </div>
+        <div class="table-container">
+            <table id="elementTable">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Definição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="../tags/tag_comment.html">&lt;!--...--&gt;</a></td>
+                        <td>Comentário - Define um trecho de texto como comentário, que não é exibido na página e serve
+                            para
+                            anotações ou desativar temporariamente partes do código.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_doctype.html">&lt;!DOCTYPE&gt;</a></td>
+                        <td>Declaração de tipo de documento - Especifica o tipo de documento e a versão do HTML sendo
+                            utilizada, ajudando o navegador a interpretar o código corretamente.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_a.html">&lt;a&gt;</a></td>
+                        <td>Hiperlink - Cria um hiperlink para outra página ou recurso.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_abbr.html">&lt;abbr&gt;</a></td>
+                        <td>Abreviação - Define uma abreviação ou acrônimo para um texto.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_address.html">&lt;address&gt;</a></td>
+                        <td>Informações de Contato - Define informações de contato do autor ou dono do documento.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_area.html">&lt;area&gt;</a></td>
+                        <td>Hiperlink de mapa de imagem - Define uma área clicável em um mapa de imagem usado como
+                            hiperlink.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_article.html">&lt;article&gt;</a></td>
+                        <td>Artigo - Define um conteúdo independente e distribuível, como um post de blog ou uma
+                            notícia.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_aside.html">&lt;aside&gt;</a></td>
+                        <td>Conteúdo lateral - Define um conteúdo relacionado, mas não essencial ao conteúdo principal.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;audio&gt;</td>
+                        <td>Arquivo de áudio - Incorpora áudio em um documento usando formatos suportados.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;b&gt;</td>
+                        <td>Texto em negrito - Aplica estilo de texto em negrito.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;base&gt;</td>
+                        <td>URL base - Define a URL base para URLs relativas em um documento.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;blockquote&gt;</td>
+                        <td>Bloco para citações - Cria um bloco de citação que geralmente é recuado.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>Corpo do documento - Define o corpo do documento HTML.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>Quebra de linha - Insere uma quebra de linha (espaço) no texto.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;button&gt;</td>
+                        <td>Botão - Cria um botão clicável para interação do usuário.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;canvas&gt;</td>
+                        <td>Espaço reservado para gráficos dinâmicos - Utilizado para desenhar gráficos, animações e
+                            gráficos de forma dinâmica.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;caption&gt;</td>
+                        <td>Legenda - Define uma legenda para uma tabela.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;cite&gt;</td>
+                        <td>Usado para citações de trabalhos - Define uma referência a uma obra citada.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;code&gt;</td>
+                        <td>Reservado para códigos - Define uma parte de texto que representa um código de computador.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;col&gt;</td>
+                        <td>Coluna da tabela - Define uma coluna em uma tabela.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;colgroup&gt;</td>
+                        <td>Grupo de coluna da tabela - Agrupa as colunas em uma tabela para estilização em conjunto.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;command&gt;</td>
+                        <td>Comando - Define um comando que pode ser acionado pelo usuário.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_data.html">&lt;data&gt;</a></td>
+                        <td>Data - Define um valor legível para a máquina e um para o usuário.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;datalist&gt;</td>
+                        <td>Opções predefinidas para outros controles - Define uma lista de opções pré-definidas para o
+                            elemento &lt;input&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dd&gt;</td>
+                        <td>Descrição ou valor - Define a descrição ou valor em uma lista de descrição.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;del&gt;</td>
+                        <td>Texto excluído - Define o texto que foi removido ou deletado do documento.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;details&gt;</td>
+                        <td>Controle para informações adicionais sob demanda - Define um elemento controlador que exibe
+                            informações adicionais quando clicado.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dfn&gt;</td>
+                        <td>Definindo instância - Define uma instância ou definição de um termo.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>Bloco genérico - Define um contêiner de bloco genérico para agrupar elementos.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dl&gt;</td>
+                        <td>Lista de descrições - Define uma lista de descrição (termo e descrição).</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dt&gt;</td>
+                        <td>Termo ou nome - Define o termo ou nome em uma lista de descrição.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;em&gt;</td>
+                        <td>Ênfase (itálico) - Aplica ênfase ou destaque em um texto (geralmente exibido em itálico).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;embed&gt;</td>
+                        <td>Ponto de integração para plug-ins - Incorpora conteúdo externo ou plug-ins em um documento.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_fieldset.html">&lt;fieldset&gt;</a></td>
+                        <td>Conjunto de controles de formulário relacionados - Define um grupo de controles de
+                            formulário
+                            relacionados.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figcaption&gt;</td>
+                        <td>Legenda de uma figura - Define uma legenda para um elemento &lt;figure&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figure&gt;</td>
+                        <td>Figura com legenda opcional - Define uma figura que pode conter uma imagem ou ilustração com
+                            legenda opcional.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>Rodapé (parte inferior da página) - Define o rodapé de uma página ou seção.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;form&gt;</td>
+                        <td>Formulário - Define um formulário para entrada de dados do usuário.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_frameset.html">&lt;frameset&gt;</a></td>
+                        <td>Elemento obsoleto - Era usado para definir a estrutura de quadros (frames) em uma página da web,
+                            permitindo a divisão da janela do navegador em várias áreas independentes com conteúdo diferente.
+                            No entanto, foi descontinuado no HTML5 devido a problemas de acessibilidade e usabilidade.
+                            Recomenda-se não utilizar esta tag em documentos HTML modernos. Em vez disso, use tecnologias como CSS,
+                            JavaScript e iframes para criar layouts de página mais flexíveis e acessíveis.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                        <td>Título - Define títulos de diferentes níveis de importância (h1 sendo o mais importante e h6
+                            o
+                            menos).</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>Armazena metadados de documento - Define o cabeçalho do documento que contém metadados como
+                            título, scripts e links.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Cabeçalho exibido na página - Define o cabeçalho da página ou seção.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;hgroup&gt;</td>
+                        <td>Grupo de título - Define um grupo de títulos relacionados.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;hr&gt;</td>
+                        <td>Linha horizontal - Cria uma linha horizontal para separar conteúdos.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>Elemento raiz - Define o elemento raiz do documento HTML.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;i&gt;</td>
+                        <td>Itálico (atribui importância ao item) - Aplica estilo de texto em itálico.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;iframe&gt;</td>
+                        <td>Permite que outras páginas sejam embutidas dentro de uma página - Incorpora um outro
+                            documento
+                            HTML dentro de um frame ou iframe.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>Imagem - Incorpora uma imagem no documento.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;input&gt;</td>
+                        <td>Controle de entrada - Define um controle de entrada do usuário, como campos de texto, caixas
+                            de
+                            seleção ou botões.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ins&gt;</td>
+                        <td>Texto inserido - Define o texto que foi inserido no documento.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_label.html">&lt;label&gt;</a></td>
+                        <td>Legenda para itens de formulários - Define uma legenda descritiva para um elemento
+                            &lt;input&gt;
+                            em um formulário.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;legend&gt;</td>
+                        <td>Título ou legenda explicativa - Define uma legenda para um elemento &lt;fieldset&gt; em um
+                            formulário.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;</td>
+                        <td>Item da lista - Define um item de lista em uma lista ordenada (&lt;ol&gt;) ou não ordenada
+                            (&lt;ul&gt;).</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;link&gt;</td>
+                        <td>Permite relacionamentos entre documentos - Define um link entre o documento atual e um
+                            recurso
+                            externo, como um arquivo CSS ou um ícone.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;map&gt;</td>
+                        <td>Definição de mapa de imagem - Define um mapa de imagem para usar com o elemento
+                            &lt;area&gt;.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;mark&gt;</td>
+                        <td>Texto marcado (destacado) - Define o texto que foi marcado ou destacado no documento.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;menu&gt;</td>
+                        <td>Permite a inserção de itens - Define uma lista de comandos ou opções.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;meta&gt;</td>
+                        <td>Metadados - Define metadados que fornecem informações sobre o documento, como codificação e
+                            descrição.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;meter&gt;</td>
+                        <td>Medidor escalar - Define uma medição dentro de um intervalo conhecido (por exemplo, medidor
+                            de
+                            bateria).</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;nav&gt;</td>
+                        <td>Grupo de links de navegação - Define um conjunto de links de navegação do documento.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;noscript&gt;</td>
+                        <td>Carrega um conteúdo diferente caso o navegador não suporte scripts - Define o conteúdo a ser
+                            exibido caso o navegador do usuário não suporte scripts ou os scripts estejam desativados.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;object&gt;</td>
+                        <td>Conteúdo externo genérico - Define um objeto incorporado, como um applet Java ou um objeto
+                            de
+                            mídia.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>Lista ordenada - Define uma lista numerada ordenada.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;optgroup&gt;</td>
+                        <td>Grupo de opções - Define um grupo de opções em um elemento &lt;select&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;option&gt;</td>
+                        <td>Opção de uma caixa de seleção (select) - Define uma opção em um elemento &lt;select&gt;.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;output&gt;</td>
+                        <td>Resultado do processamento de um formulário - Define o resultado de um cálculo ou
+                            processamento
+                            de formulário.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Parágrafo - Define um parágrafo de texto.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_param.html">&lt;param&gt;</a></td>
+                        <td>Parâmetros de inicialização para plug-ins - Define parâmetros para um plug-in em um elemento
+                            &lt;object&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;pre&gt;</td>
+                        <td>Texto pré-formatado - Define um bloco de texto pré-formatado com espaçamento e quebras de
+                            linha
+                            preservados.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;progress&gt;</td>
+                        <td>Indicador de progresso - Define uma barra de progresso para mostrar o status de conclusão de
+                            uma
+                            tarefa.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;q&gt;</td>
+                        <td>Pequena citação de outra fonte - Define uma pequena citação de outra fonte.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;s&gt;</td>
+                        <td>Armazena conteúdos que não são mais relevantes para o documento, sendo então eliminados -
+                            Define
+                            um texto que não é mais relevante ou preciso.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;script&gt;</td>
+                        <td>Permite a adição de scripts - Define um script embutido ou um link para um arquivo de script
+                            externo.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td>Bloco reservado para representar seções - Define uma seção lógica do documento, como
+                            capítulos,
+                            cabeçalhos ou outros temas.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;select&gt;</td>
+                        <td>Caixa de seleção de um formulário - Define um menu suspenso para selecionar opções em um
+                            formulário.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;small&gt;</td>
+                        <td>Letras pequenas - Define texto em tamanho de fonte menor.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;source&gt;</td>
+                        <td>Permite várias fontes de áudio e vídeo - Define várias fontes de mídia para uso com o
+                            elemento
+                            &lt;audio&gt; ou &lt;video&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td>Container para texto - Define um contêiner inline para agrupar elementos de texto sem efeito
+                            de
+                            linha.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;strong&gt;</td>
+                        <td>Grande importância (negrito) - Define texto importante em negrito para maior destaque.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;style&gt;</td>
+                        <td>Permite alterar o estilo - Define estilos CSS dentro do documento ou referencia um arquivo
+                            CSS
+                            externo.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;sub&gt;</td>
+                        <td>Subscrito - Define texto que deve ser exibido ligeiramente abaixo da linha de base do texto.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;summary&gt;</td>
+                        <td>Utilizado em sumários e legendas - Define um sumário ou legenda para um elemento
+                            &lt;details&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;sup&gt;</td>
+                        <td>Sobrescrito - Define texto que deve ser exibido ligeiramente acima da linha de base do
+                            texto.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Tabela - Define uma tabela para organizar dados em linhas e colunas.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Grupo de linha de uma tabela - Define um grupo de linhas dentro de uma tabela.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="../tags/tag_td.html">&lt;td&gt;</a></td>
+                        <td>Célula de uma tabela - Define uma célula em uma tabela.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;textarea&gt;</td>
+                        <td>Área para entrada de texto - Define uma área de texto multi-linha para entrada de dados do
+                            usuário.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Grupo de linha do rodapé de uma tabela - Define um grupo de linhas de rodapé em uma tabela.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;th&gt;</td>
+                        <td>Célula de cabeçalho de uma tabela - Define uma célula de cabeçalho em uma tabela.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Grupo de título de uma tabela - Define um grupo de linhas de cabeçalho em uma tabela.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;time&gt;</td>
+                        <td>Data e/ou hora - Define uma data e/ou hora específica.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;title&gt;</td>
+                        <td>Título do documento - Define o título do documento que é exibido na barra de título do
+                            navegador
+                            ou na aba.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Linha de uma tabela - Define uma linha em uma tabela.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;track&gt;</td>
+                        <td>Faixa de mídia suplementar - Define faixas de legenda, legendas ou descrições de áudio ou
+                            vídeo.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;u&gt;</td>
+                        <td>Texto deslocado com estilo convencional com um sublinhado - Define texto sublinhado.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>Lista não ordenada - Define uma lista de itens não ordenada.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;var&gt;</td>
+                        <td>Variável - Define uma variável ou um termo em matemática ou programação.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>Vídeo - Incorpora um vídeo no documento.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;wbr&gt;</td>
+                        <td>Insere uma quebra de linha (se necessário) - Define um local onde a quebra de linha pode
+                            ocorrer
+                            em uma palavra longa ou URL.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <caption>
+                <h6>Tags HTML5. Fonte: Adaptado de <a href="https://www.w3schools.com/tags/default.asp">W3Schools</a>
+                </h6>
+            </caption>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright&copy;2023</p>
+    </footer>
+    <script src="script_table.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Tag &lt;area&gt;</title>
+</head>
+
+<body>
+    <header>
+        <h1><strong>Tag &lt;area&gt;</strong></h1>
+    </header>
+
+    <main class="container">
+
+        <div class="navigation-buttons">
+            <a href="pagina_anterior.html" class="button">Tag Anterior</a>
+            <a href="../pages/referencias.html" class="button_ref">Referência HTML Completa</a>
+            <a href="pagina_proxima.html" class="button">Próxima Tag</a>
+        </div>
+
+        <h2>Descrição</h2>
+        <p>A tag <span class="tag">&lt;area&gt;</span> é usada junto com a tag <span class="tag">&lt;map&gt;</span> para definir uma área sensível
+                em
+                uma imagem. Essas áreas sensíveis podem ser usadas para criar links ou mapeamentos de imagem.</p>
+
+        <h2>Atributos</h2>
+        <p>A tag <span class="tag">&lt;area&gt;</span> pode conter os seguintes atributos:</p>
+        <ul>
+            <li><strong>alt</strong>: Especifica um texto alternativo que é exibido quando a imagem não pode ser
+                carregada.</li>
+            <li><strong>coords</strong>: Especifica as coordenadas da área sensível no formato "x1, y1, x2, y2, ...".
+                Dependendo do shape (forma), podem ser necessários diferentes números de coordenadas.</li>
+            <li><strong>shape</strong>: Especifica o formato da área sensível. Pode ser "rect" (retângulo),
+                "circle" (círculo), ou "poly" (polígono).</li>
+            <li><strong>href</strong>: Especifica o URL de destino para onde o usuário será direcionado ao clicar na
+                área
+                sensível.</li>
+            <li><strong>target</strong>: Especifica como o link será aberto. Por exemplo, <span
+                    class="attribute">"_blank"</span> abre o link em uma nova janela ou aba.</li>
+        </ul>
+
+        <h2>Exemplo</h2>
+        <pre class="code-example">
+&lt;img src="imagem.jpg" alt="Imagem de exemplo" usemap="#mapa"&gt;
+&lt;map name="mapa"&gt;
+    &lt;area shape="rect" coords="0,0,100,100" href="pagina.html" target="_blank" alt="Área 1"&gt;
+    &lt;area shape="circle" coords="150,150,50" href="outra_pagina.html" target="_blank" alt="Área 2"&gt;
+&lt;/map&gt;
+        </pre>
+
+        <h2>Notas</h2>
+        <p>A tag <span class="tag">&lt;area&gt;</span> deve sempre estar dentro de uma tag <span class="tag">&lt;map&gt;</span>, e a imagem
+                referenciada no atributo `src` deve ter a propriedade `usemap` apontando para o nome do mapa (no exemplo
+                acima, `#mapa`). As coordenadas devem ser ajustadas de acordo com a posição e o formato desejado da área
+                sensível na imagem.</p>
+
+        <div class="navigation-buttons">
+            <a href="pagina_anterior.html" class="button">Tag Anterior</a>
+            <a href="../pages/referencias.html" class="button_ref">Referência HTML Completa</a>
+            <a href="pagina_proxima.html" class="button">Próxima Tag</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
