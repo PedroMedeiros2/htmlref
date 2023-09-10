@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--cor-branca); /* Utilizando a variável para a cor de fundo */
+    background-color: var(--cor-branca); 
   }
   
   /* Estilo do conteúdo da página */
@@ -49,8 +49,9 @@
 
 .header-buttons {
     display: flex;
-    gap: 20px; /* Adjust the gap as needed */
-    margin: 0 100px; /* Add margin to create spacing from the sides */
+    gap: 20px; 
+    margin: 0 10px; 
+    flex-wrap: wrap; 
 }
   
   /* Estilo para títulos secundários */
@@ -148,6 +149,7 @@
 /* Estilo dos botões de navegação */
 .navigation-buttons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -207,8 +209,8 @@
 
 .github-icon {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     background: url('resources/github-icon.png') no-repeat;
     text-indent: -9999px;
     overflow: hidden;
@@ -223,4 +225,17 @@
 
 .team-member .github-link:hover {
     text-decoration: underline;
+}
+
+/* Adicione regras de mídia para dispositivos menores */
+@media screen and (max-width: 600px) {
+  .header-buttons {
+      margin: 0 5px; /* Reduzir ainda mais a margem para telas muito pequenas */
+  }
+
+  .button,
+  .button_ref {
+      padding: 8px 16px; /* Reduzir o tamanho dos botões em telas pequenas */
+      font-size: 14px; /* Reduzir o tamanho da fonte em telas pequenas */
+  }
 }
